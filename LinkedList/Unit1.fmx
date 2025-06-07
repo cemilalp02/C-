@@ -1,0 +1,62 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 616
+  ClientWidth = 1102
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object CreateLinkedList: TButton
+    Position.X = 456.000000000000000000
+    Position.Y = 384.000000000000000000
+    Size.Width = 217.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    Text = 'CreateLinkedList'
+    TextSettings.Trimming = None
+    OnClick = CreateLinkedListClick
+  end
+  object AddToHead: TButton
+    Position.X = 456.000000000000000000
+    Position.Y = 448.000000000000000000
+    Size.Width = 217.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Text = 'AddToHead'
+    TextSettings.Trimming = None
+    OnClick = AddToHeadClick
+  end
+  object AddToEnd: TButton
+    Position.X = 456.000000000000000000
+    Position.Y = 512.000000000000000000
+    Size.Width = 217.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    Text = 'AddToEnd'
+    TextSettings.Trimming = None
+    OnClick = AddToEndClick
+  end
+  object PaintBox1: TPanel
+    Position.X = 8.000000000000000000
+    Position.Y = 8.000000000000000000
+    Size.Width = 1094.000000000000000000
+    Size.Height = 289.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    OnPaint = PaintBox1Paint
+  end
+  object EditValue: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 4
+    Position.X = 488.000000000000000000
+    Position.Y = 321.000000000000000000
+    Size.Width = 145.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+  end
+end
